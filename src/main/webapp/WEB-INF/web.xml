@@ -25,4 +25,13 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>TestDBServlet</servlet-name>
+        <servlet-class>com.example.testdb.TestDbServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestDBServlet</servlet-name>
+        <url-pattern>/TestDBServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>

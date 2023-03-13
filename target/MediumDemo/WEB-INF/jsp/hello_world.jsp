@@ -11,6 +11,7 @@
     <title>Spring MVC Demo</title>
 </head>
 <body>
+<h1>Hi there!</h1>
 <h2>${message}</h2>
 </body>
 </html>
